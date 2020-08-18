@@ -1,10 +1,10 @@
-import VisibilitySensor from 'react-visibility-sensor'
-import React from 'react'
-import { Spring } from 'react-spring/renderprops'
+import VisibilitySensor from "react-visibility-sensor"
+import React from "react"
+import { Spring } from "react-spring/renderprops"
 
-export default function({ imgUrl, info }) {
+export default function ({ imgUrl, info }) {
   return (
-    <div style={{ display: 'block', minHeight: '130px' }}>
+    <div style={{ display: "block", minHeight: "150px" }}>
       <div className="row w-100 d-flex justify-content-center text-center mx-auto mt-3 ">
         <div className="col  mt-1">
           <VisibilitySensor partialVisibility offset={{ top: -10 }}>
@@ -15,11 +15,11 @@ export default function({ imgUrl, info }) {
                     config={{ delay: 275 }}
                     from={{
                       opacity: 0,
-                      transform: 'translate(-10px, 0)',
+                      transform: "translate(-10px, 0)",
                     }}
                     to={{
                       opacity: 1,
-                      transform: 'translate(0px, 0)',
+                      transform: "translate(0px, 0)",
                     }}
                   >
                     {props => (
@@ -35,7 +35,7 @@ export default function({ imgUrl, info }) {
                 ) : (
                   <div
                     className="w-100 container"
-                    style={{ visibility: 'hidden' }}
+                    style={{ visibility: "hidden" }}
                   >
                     s
                   </div>
@@ -47,7 +47,7 @@ export default function({ imgUrl, info }) {
         <div
           className="col d-flex text-center justify-content-center   "
           style={{
-            lineHeight: '8px',
+            lineHeight: "8px",
           }}
         >
           <VisibilitySensor partialVisibility offset={{ top: -10 }}>
@@ -58,25 +58,25 @@ export default function({ imgUrl, info }) {
                     config={{ delay: 275 }}
                     from={{
                       opacity: 0,
-                      transform: 'translate(10px, 0)',
+                      transform: "translate(10px, 0)",
                     }}
                     to={{
                       opacity: 1,
-                      transform: 'translate(0px, 0)',
-                      display: 'flex',
-                      minHeight: '100%',
-                      alignItems: 'center',
+                      transform: "translate(0px, 0)",
+                      display: "flex",
+                      minHeight: "100%",
+                      alignItems: "center",
                     }}
                   >
                     {props => (
                       <div style={props}>
                         <p
                           style={{
-                            left: '0px',
+                            left: "0px",
 
-                            lineHeight: '12px',
-                            fontSize: '10px',
-                            fontWeight: '550',
+                            lineHeight: "12px",
+                            fontSize: "10px",
+                            fontWeight: "550",
                           }}
                           className=" mt-3 text-justify mw-80 rounded"
                         >
@@ -88,9 +88,9 @@ export default function({ imgUrl, info }) {
                 ) : (
                   <div
                     className="w-100 container "
-                    style={{ visibility: 'hidden' }}
+                    style={{ visibility: "hidden" }}
                   >
-                    {' '}
+                    {" "}
                     s
                   </div>
                 )}
