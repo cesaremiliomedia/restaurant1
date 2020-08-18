@@ -228,6 +228,7 @@ h1 {
   object-fit: contain;
 }
 .texture {
+  color: #28a950;
   background: url("https://tacotote.com/wp-content/themes/TacoTote/media/texture.png")
     #28a950 center top repeat;
   background-size: 80%;
