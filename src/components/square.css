@@ -1,0 +1,45 @@
+.flex {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  text-align: center;
+}
+.square {
+  padding: 5px;
+
+  cursor: pointer;
+}
+.square > img {
+  border-radius: 50%;
+}
+.full-screen-square {
+  margin: auto !important;
+  z-index: 1111;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  cursor: pointer;
+}
+body,
+html {
+  display: block;
+  justify-content: center;
+  max-width: 375px;
+  margin: auto;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  line-height: 12.25px;
+  kerning: 1px;
+}
+h1 {
+  text-transform: none;
+}
