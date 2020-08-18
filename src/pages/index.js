@@ -11,7 +11,6 @@ import SlideShow from "../components/SlideShow"
 import ModalObject from "../components/ModalObject"
 import Video from "../components/video"
 import VisibilitySensor from "react-visibility-sensor"
-import "@reach/dialog/styles.css"
 
 import { Spring } from "react-spring/renderprops"
 import { ToastContainer } from "react-toastify"
