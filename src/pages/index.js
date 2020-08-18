@@ -83,6 +83,7 @@ export default class Page extends Component {
                           fontFamily: "sacramento",
                           fontWeight: "700",
                           letterSpacing: "3px",
+                          marginTop: "0px",
                         }}
                       >
                         About this site
