@@ -53,7 +53,7 @@ export default class Page extends Component {
           style={{
             display: "block",
             position: "relative",
-            height: "300px",
+            height: "250px",
             objectFit: "cover",
             margin: "0px 0px",
           }}
