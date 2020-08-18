@@ -55,7 +55,7 @@ export default class Page extends Component {
             position: "relative",
             height: "40vh",
             objectFit: "cover",
-            margin: "10px 0px",
+            margin: "0px 0px",
           }}
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
