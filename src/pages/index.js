@@ -55,7 +55,7 @@ export default class Page extends Component {
             position: "relative",
             height: "40vh",
             objectFit: "cover",
-            margin: "0px 0px",
+            margin: "10px 0px",
           }}
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
@@ -63,7 +63,7 @@ export default class Page extends Component {
         <div style={{ minHeight: "220px" }}>
           <VisibilitySensor partialVisibility offset={{ top: 0 }}>
             {({ isVisible }) => (
-              <div style={{ minHeight: "220px" }}>
+              <div>
                 {isVisible ? (
                   <Spring
                     config={{ delay: 300 }}
@@ -77,7 +77,7 @@ export default class Page extends Component {
                     {props => (
                       <div style={props}>
                         <h1
-                          className="h6"
+                          className="h5"
                           style={{
                             fontsize: "14px",
                             fontFamily: "sacramento",
@@ -115,9 +115,8 @@ export default class Page extends Component {
             )}
           </VisibilitySensor>
         </div>
-        <div style={{ minHeight: "150px" }} className="">
-          <InfoComp imgUrl={url2} info={Menu3.info3} />
-        </div>
+
+        <InfoComp imgUrl={url2} info={Menu3.info3} />
 
         <div style={{ paddingBottom: "30px" }} className="">
           {" "}
