@@ -5,8 +5,8 @@ import { Spring } from "react-spring/renderprops"
 export default function ({ imgUrl, info }) {
   return (
     <div style={{ display: "block", minHeight: "130px" }}>
-      <div className="row w-100 d-flex justify-content-center text-center ">
-        <div className="col  ">
+      <div className="row w-100 d-flex justify-content-center text-center mx-auto mt-3 ">
+        <div className="col  mt-3">
           <VisibilitySensor partialVisibility offset={{ top: -10 }}>
             {({ isVisible }) => (
               <div>
