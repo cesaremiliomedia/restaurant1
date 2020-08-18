@@ -53,73 +53,74 @@ export default class Page extends Component {
           style={{
             display: "block",
             position: "relative",
-            height: "300px",
+            height: "40vh",
             objectFit: "cover",
             margin: "0px 0px",
           }}
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
         </div>
-
-        <VisibilitySensor partialVisibility offset={{ top: 0 }}>
-          {({ isVisible }) => (
-            <div style={{ minHeight: "180px" }}>
-              {isVisible ? (
-                <Spring
-                  config={{ delay: 300 }}
-                  from={{
-                    opacity: 0,
-                  }}
-                  to={{
-                    opacity: 1,
-                  }}
-                >
-                  {props => (
-                    <div style={props}>
-                      <h1
-                        className="h6"
-                        style={{
-                          fontsize: "14px",
-                          fontFamily: "sacramento",
-                          fontWeight: "700",
-                          letterSpacing: "3px",
-                          marginTop: "0px",
-                        }}
-                      >
-                        About this site
-                      </h1>
-                      <p
-                        style={{
-                          ...props,
-                          lineHeight: "1.5em",
-                          padding: "19px 30px",
-                          fontSize: "14px",
-                          textAlign: "center",
-                          fontWeight: "550",
-                        }}
-                      >
-                        {Menu3.info6}
-                      </p>
-                    </div>
-                  )}
-                </Spring>
-              ) : (
-                <div
-                  className="w-100 container"
-                  style={{ visibility: "hidden" }}
-                >
-                  s
-                </div>
-              )}
-            </div>
-          )}
-        </VisibilitySensor>
-
-        <div style={{ minHeight: "180px" }} className="">
+        <div style={{ minHeight: "220px" }}>
+          <VisibilitySensor partialVisibility offset={{ top: 0 }}>
+            {({ isVisible }) => (
+              <div style={{ minHeight: "220px" }}>
+                {isVisible ? (
+                  <Spring
+                    config={{ delay: 300 }}
+                    from={{
+                      opacity: 0,
+                    }}
+                    to={{
+                      opacity: 1,
+                    }}
+                  >
+                    {props => (
+                      <div style={props}>
+                        <h1
+                          className="h6"
+                          style={{
+                            fontsize: "14px",
+                            fontFamily: "sacramento",
+                            fontWeight: "700",
+                            letterSpacing: "3px",
+                            marginTop: "0px",
+                          }}
+                        >
+                          About this site
+                        </h1>
+                        <p
+                          style={{
+                            ...props,
+                            lineHeight: "1.5em",
+                            padding: "19px 30px",
+                            fontSize: "14px",
+                            textAlign: "center",
+                            fontWeight: "550",
+                          }}
+                        >
+                          {Menu3.info6}
+                        </p>
+                      </div>
+                    )}
+                  </Spring>
+                ) : (
+                  <div
+                    className="w-100 container"
+                    style={{ visibility: "hidden" }}
+                  >
+                    s
+                  </div>
+                )}
+              </div>
+            )}
+          </VisibilitySensor>
+        </div>
+        <div style={{ minHeight: "150px" }} className="">
           <InfoComp imgUrl={url2} info={Menu3.info3} />
         </div>
 
-        <div style={{ minHeight: "180px" }} className="">
+        <div style={{ paddingBottom: "30px" }} className="">
+          {" "}
           <InfoComp2 info={Menu3.info4} imgUrl={url} />
         </div>
 
