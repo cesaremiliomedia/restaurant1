@@ -53,9 +53,9 @@ export default class Page extends Component {
           style={{
             display: "block",
             position: "relative",
-            height: "40vh",
+            height: "200px",
             objectFit: "cover",
-            margin: "10px 0px",
+            margin: "0px 0px",
           }}
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
@@ -83,7 +83,7 @@ export default class Page extends Component {
                             fontFamily: "sacramento",
                             fontWeight: "700",
                             letterSpacing: "3px",
-                            marginTop: "-30px",
+                            marginTop: "-10px",
                           }}
                         >
                           About this site
