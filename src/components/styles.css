@@ -234,6 +234,6 @@ h1 {
   background-size: 80%;
   padding-bottom: 2em;
   position: relative;
-  background-blend-mode: color-burn;
+  background-blend-mode: screen;
   filter: none;
 }
