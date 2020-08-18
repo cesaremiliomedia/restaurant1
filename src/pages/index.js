@@ -115,11 +115,11 @@ export default class Page extends Component {
             )}
           </VisibilitySensor>
         </div>
-        <div style={{ minHeight: "150px" }} className="">
+        <div style={{ minHeight: "180px" }} className="">
           <InfoComp imgUrl={url2} info={Menu3.info3} />
         </div>
 
-        <div style={{ paddingBottom: "30px" }} className="">
+        <div style={{ minHeight: "180px" }} className="">
           {" "}
           <InfoComp2 info={Menu3.info4} imgUrl={url} />
         </div>
