@@ -53,7 +53,7 @@ export default class Page extends Component {
           style={{
             display: "block",
             position: "relative",
-            height: "250px",
+            height: "300px",
             objectFit: "cover",
             margin: "0px 0px",
           }}
@@ -72,7 +72,6 @@ export default class Page extends Component {
                   }}
                   to={{
                     opacity: 1,
-                    minHeight: "280px",
                   }}
                 >
                   {props => (
