@@ -14,3 +14,4 @@ import "./src/components/styles.css"
 import "react-toastify/scss/main.scss"
 
 import "./src/components/square.css"
+import "@reach/dialog/styles.css"
