@@ -1,7 +1,7 @@
 import React from "react"
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className="video texture p-4">
+  <div className="video texture ">
     {" "}
     <h1
       style={{
