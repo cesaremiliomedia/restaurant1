@@ -243,13 +243,13 @@ h1 {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 375px;
+  width: 375px !important;
   overflow: auto;
 }
 
 [data-reach-dialog-content] {
   overflow: scroll;
-  width: 375px;
+  width: 375px !important;
   margin: auto;
   background: white;
   padding: 2rem;
