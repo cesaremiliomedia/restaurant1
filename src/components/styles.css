@@ -234,4 +234,5 @@ h1 {
   padding-bottom: 2em;
   position: relative;
   background-blend-mode: color-burn;
+  mix-blend-mode: color-burn;
 }
