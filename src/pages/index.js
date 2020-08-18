@@ -92,7 +92,7 @@ export default class Page extends Component {
                           style={{
                             ...props,
                             lineHeight: "1.5em",
-                            padding: "19px 30px",
+                            padding: "0px 30px",
                             fontSize: "14px",
                             textAlign: "center",
                             fontWeight: "550",
