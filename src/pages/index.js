@@ -77,7 +77,6 @@ export default class Page extends Component {
                   {props => (
                     <div style={props}>
                       <h1
-                        className="h6"
                         style={{
                           fontsize: "14px",
                           fontFamily: "sacramento",
