@@ -1,25 +1,25 @@
-import React from 'react'
-import { Spring } from 'react-spring/renderprops'
-import { Dialog } from '@reach/dialog'
-import { toast } from 'react-toastify'
-import '@reach/dialog/styles.css'
-import Carusel from '../Carusel'
+import React from "react"
+import { Spring } from "react-spring/renderprops"
+import { Dialog } from "@reach/dialog"
+import { toast } from "react-toastify"
+
+import Carusel from "../Carusel"
 
 export default function SecondPage({ imgUrl }) {
   const [showDialog, setShowDialog] = React.useState(false)
   const vospen = () => setShowDialog(true)
   const close = () => setShowDialog(false)
-  const toa = () => toast.success('appointment booked!')
+  const toa = () => toast.success("appointment booked!")
   return (
     <div>
       <div className="p-2 m-2 mt-4 ">
         <img
           style={{
-            position: 'relative',
-            maxWidth: '100%',
-            minWidth: '120px',
-            borderWidth: '10px',
-            objectFit: 'contain',
+            position: "relative",
+            maxWidth: "100%",
+            minWidth: "120px",
+            borderWidth: "10px",
+            objectFit: "contain",
           }}
           onClick={vospen}
           src={imgUrl.url}
@@ -29,11 +29,11 @@ export default function SecondPage({ imgUrl }) {
         <div
           className=" align-middle"
           style={{
-            fontFamily: 'Didot',
-            textAlign: 'center',
-            fontSize: '12px',
-            letterSpacing: '2px',
-            textTransform: 'uppercase',
+            fontFamily: "Didot",
+            textAlign: "center",
+            fontSize: "12px",
+            letterSpacing: "2px",
+            textTransform: "uppercase",
           }}
         >
           {imgUrl.item}
@@ -42,9 +42,9 @@ export default function SecondPage({ imgUrl }) {
 
       <Dialog
         style={{
-          background: 'black',
+          background: "black",
 
-          textAlign: 'center',
+          textAlign: "center",
         }}
         isOpen={showDialog}
         onDismiss={close}
@@ -52,13 +52,13 @@ export default function SecondPage({ imgUrl }) {
         <Spring
           from={{
             opacity: 0,
-            transform: 'translate(-10px, 0)',
+            transform: "translate(-10px, 0)",
           }}
           to={{
             opacity: 1,
-            transform: 'translate(0px, 0)',
-            position: 'relative',
-            maxWidth: '100%',
+            transform: "translate(0px, 0)",
+            position: "relative",
+            maxWidth: "100%",
           }}
         >
           {props => (
@@ -73,9 +73,9 @@ export default function SecondPage({ imgUrl }) {
               <div style={props} className="mt-3">
                 <h3
                   style={{
-                    textTransform: 'none',
-                    fontFamily: 'Didot',
-                    fontSize: '16px',
+                    textTransform: "none",
+                    fontFamily: "Didot",
+                    fontSize: "16px",
                   }}
                 >
                   Price: {imgUrl.price}
@@ -86,9 +86,9 @@ export default function SecondPage({ imgUrl }) {
                 <p
                   className="mx-auto"
                   style={{
-                    fontSize: '14px',
-                    width: '80%',
-                    fontFamily: 'Boudini',
+                    fontSize: "14px",
+                    width: "80%",
+                    fontFamily: "Boudini",
                   }}
                 >
                   {imgUrl.info}
@@ -98,16 +98,16 @@ export default function SecondPage({ imgUrl }) {
               <div style={props} className="d-sm-block mw-100">
                 <button
                   style={{
-                    height: '2rem',
-                    lineHeight: '10px',
-                    fontSize: '10px',
+                    height: "2rem",
+                    lineHeight: "10px",
+                    fontSize: "10px",
                   }}
                   className="btn-sm btn-primary mw-80 mx-auto d-block"
                 >
                   Book APPOINTMENT
                 </button>
                 <button
-                  style={{ height: '1.5rem', fontSize: '10px' }}
+                  style={{ height: "1.5rem", fontSize: "10px" }}
                   className="  btn btn-danger btn-sm "
                   onClick={close}
                 >
