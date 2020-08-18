@@ -11,3 +11,6 @@ import "jquery/dist/jquery.min.js"
 import "popper.js/dist/popper.min"
 import "bootstrap/dist/js/bootstrap.min.js"
 import "./src/components/styles.css"
+import "react-toastify/dist/reactToastify.css"
+
+import "./src/components/square.css"

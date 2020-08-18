@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/layout2"
-import "../components/styles.css"
-import "../components/square.css"
+
 import Tacos from "../components/Restaurant/tacos"
 import { Menu2, Menu3, sides } from "../products/Menu/RestMenu"
 import HeroImage from "../components/HeroImage"
@@ -15,7 +14,6 @@ import VisibilitySensor from "react-visibility-sensor"
 
 import { Spring } from "react-spring/renderprops"
 import { ToastContainer } from "react-toastify"
-import "react-toastify/dist/reactToastify.css"
 
 export default class Page extends Component {
   render() {
