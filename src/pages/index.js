@@ -60,7 +60,7 @@ export default class Page extends Component {
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
         </div>
-        <div style={{ minHeight: "220px" }}>
+        <div style={{ minHeight: "200px" }}>
           <VisibilitySensor partialVisibility offset={{ top: 0 }}>
             {({ isVisible }) => (
               <div>
