@@ -2,7 +2,7 @@ import React from "react"
 import { Spring } from "react-spring/renderprops"
 import { Dialog } from "@reach/dialog"
 import { toast } from "react-toastify"
-import "@reach/dialog/styles.css"
+
 export default function SecondPage({ imgUrl }) {
   const [showDialog, setShowDialog] = React.useState(false)
   const vospen = () => setShowDialog(true)
