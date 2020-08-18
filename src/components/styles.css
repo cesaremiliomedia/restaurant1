@@ -250,8 +250,8 @@ h1 {
 
 [data-reach-dialog-content] {
   overflow: scroll;
-  width: 375px;
-  margin: auto;
+  width: 375px !important;
+  margin: auto !important;
   background: white;
   padding: 2rem;
   outline: none;
