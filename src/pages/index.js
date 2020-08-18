@@ -53,7 +53,7 @@ export default class Page extends Component {
           style={{
             display: "block",
             position: "relative",
-            height: "40vh",
+            height: "300px",
             objectFit: "cover",
             margin: "0px 0px",
           }}
@@ -120,7 +120,6 @@ export default class Page extends Component {
         </div>
 
         <div style={{ minHeight: "180px" }} className="">
-          {" "}
           <InfoComp2 info={Menu3.info4} imgUrl={url} />
         </div>
 
