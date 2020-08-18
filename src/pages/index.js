@@ -72,6 +72,7 @@ export default class Page extends Component {
                   }}
                   to={{
                     opacity: 1,
+                    minHeight: "280px",
                   }}
                 >
                   {props => (
