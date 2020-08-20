@@ -187,19 +187,9 @@ export default class Page extends Component {
               data-parent="#accordion"
             >
               <div className="card-body text-gray d-flex flex-column">
-                <div className="row mt-2">
-                  <div className="col d-flex text-center flex-column ">
-                    <a href="#">Menu</a>
-                    <a href="#">Order Online</a>
-                    <a href="#">Call-in Order</a>
-                    <a href="#">Merch</a>
-                  </div>
-                  <div className="col d-flex text-center flex-column  ">
-                    <a href="#">Specials</a>
-                    <a href="#">Backpacks</a>
-                    <a href="#">Sale</a>
-                    <a href="#">Returns</a>
-                  </div>
+                <div>
+                  <p>SUNDAYS: 11AM-3PM</p>
+                  <p>MON-SAT: 8AM-6PM</p>
                 </div>
               </div>
             </div>
