@@ -231,7 +231,7 @@ export default class Page extends Component {
               <a className="card-body text-center ">
                 {" "}
                 <p
-                  className="text-center mx-auto"
+                  className="text-center mx-auto abs"
                   style={{ maxWidth: "150px", lineHeight: "15px" }}
                 >
                   1000 San Marcos St. Austin, Tx
