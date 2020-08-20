@@ -166,7 +166,7 @@ export default class Page extends Component {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Order
+                  Hours of Operation
                 </a>{" "}
                 <div
                   aria-controls="collapseOne"
@@ -187,7 +187,7 @@ export default class Page extends Component {
               data-parent="#accordion"
             >
               <div className="card-body text-gray d-flex flex-column">
-                <div>
+                <div className="text-center">
                   <p>SUNDAYS: 11AM-3PM</p>
                   <p>MON-SAT: 8AM-6PM</p>
                 </div>
