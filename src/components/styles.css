@@ -222,6 +222,9 @@ h1 {
   font-size: 14px;
   font-weight: 600;
 }
+.marfx {
+  margin-top: -10px;
+}
 .video {
   min-height: 280px;
 }

@@ -189,7 +189,7 @@ export default class Page extends Component {
               <div className="card-body text-gray d-flex flex-column">
                 <div className="text-center ">
                   <p className="abs">SUNDAYS: 11AM-3PM</p>
-                  <p className="abs">MON-SAT: 8AM-6PM</p>
+                  <p className="abs marfx">MON-SAT: 8AM-6PM</p>
                 </div>
               </div>
             </div>
