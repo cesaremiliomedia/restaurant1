@@ -219,6 +219,8 @@ h1 {
 .abs {
   font-family: "Source Sans Pro";
   font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 .video {
   min-height: 280px;
