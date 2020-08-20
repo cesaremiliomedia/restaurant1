@@ -235,7 +235,7 @@ h1 {
 .texture {
   background: url("https://tacotote.com/wp-content/themes/TacoTote/media/texture.png")
     #28a950 center top repeat;
-  background-size: 60%;
+  background-size: 30%;
   padding-bottom: 2em;
   position: relative;
   background-blend-mode: color-burn;
