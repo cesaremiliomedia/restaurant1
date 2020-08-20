@@ -78,11 +78,11 @@ export default class Page extends Component {
                       <div style={props}>
                         <h1
                           style={{
-                            fontsize: "22px",
+                            fontsize: "20px",
                             fontFamily: "sacramento",
                             fontWeight: "700",
                             letterSpacing: "3px",
-                            marginTop: "-10px",
+                            marginTop: "-20px",
                           }}
                         >
                           About this site
