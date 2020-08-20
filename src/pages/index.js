@@ -79,7 +79,7 @@ export default class Page extends Component {
                         <h1
                           className="h5"
                           style={{
-                            fontsize: "18px",
+                            fontsize: "24px",
                             fontFamily: "sacramento",
                             fontWeight: "700",
                             letterSpacing: "3px",
