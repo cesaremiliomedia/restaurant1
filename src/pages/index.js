@@ -79,7 +79,7 @@ export default class Page extends Component {
                         <h1
                           className="h5"
                           style={{
-                            fontsize: "14px",
+                            fontsize: "18px",
                             fontFamily: "sacramento",
                             fontWeight: "700",
                             letterSpacing: "3px",
@@ -188,6 +188,7 @@ export default class Page extends Component {
             >
               <div className="card-body text-gray d-flex flex-column">
                 <div className="text-center ">
+                  <p className="abs">HOURS</p>
                   <p className="abs">SUNDAYS: 11AM-3PM</p>
                   <p className="abs marfx">MON-SAT: 8AM-6PM</p>
                 </div>
