@@ -8,7 +8,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       style={{
         fontsize: "24px",
         fontFamily: "Sacramento",
-
+        color: "#F24E29",
         marginTop: "0px",
       }}
     >
