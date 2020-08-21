@@ -6,13 +6,13 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
     <h1
       className="pnkcol"
       style={{
-        fontsize: "18px",
-        fontFamily: "titan one",
+        fontsize: "24px",
+        fontFamily: "Sacramento",
 
         marginTop: "0px",
       }}
     >
-      Tacos
+      Tacos con Amor
     </h1>
     <iframe
       src={videoSrcURL}
