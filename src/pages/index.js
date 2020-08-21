@@ -83,6 +83,7 @@ export default class Page extends Component {
                             fontWeight: "700",
                             letterSpacing: "3px",
                             marginTop: "-20px",
+                            color: "#F257A0",
                           }}
                         >
                           About this site
