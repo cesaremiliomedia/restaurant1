@@ -4,6 +4,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   <div className="video texture ">
     {" "}
     <h1
+      className="pnkcol"
       style={{
         fontsize: "18px",
         fontFamily: "titan one",
