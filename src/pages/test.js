@@ -20,7 +20,7 @@ export default function test2() {
     {
       img:
         "https://houseofthenonchalant.com/wp-content/uploads/2019/09/3Z1A8466.jpg",
-      info: "dafsfdsafdafsda",
+      info: "dafsfdsafdafsdda",
     },
     {
       img:
