@@ -1,19 +1,10 @@
 import React from "react"
+import Animation from "./animation"
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   <div className="video texture ">
     {" "}
-    <h1
-      className="pnkcol"
-      style={{
-        fontsize: "24px",
-        fontFamily: "Sacramento",
-        color: "#F24E29",
-        marginTop: "0px",
-      }}
-    >
-      Tacos con Amor
-    </h1>
+    <Animation></Animation>
     <iframe
       src={videoSrcURL}
       title={videoTitle}

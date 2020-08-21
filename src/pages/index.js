@@ -49,6 +49,7 @@ export default class Page extends Component {
       <Layout>
         <ToastContainer />
         <div></div>
+        <Animation></Animation>
         <Video videoSrcURL="https://www.youtube.com/embed/k2qist_IxZI"></Video>
         <div
           style={{
@@ -61,7 +62,6 @@ export default class Page extends Component {
         >
           <HeroImage info={heroInfo} imgUrl={url2} />
         </div>
-        <Animation></Animation>
         <div style={{ minHeight: "200px" }}>
           <VisibilitySensor partialVisibility offset={{ top: 0 }}>
             {({ isVisible }) => (
