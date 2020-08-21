@@ -255,6 +255,7 @@ h1 {
   width: 375px;
   overflow: auto;
   margin: auto;
+  z-index: 1000;
 }
 
 [data-reach-dialog-content] {
