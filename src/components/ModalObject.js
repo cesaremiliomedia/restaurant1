@@ -16,7 +16,8 @@ export default function SecondPage({ imgUrl }) {
             position: "relative",
             maxWidth: "100%",
             minWidth: "90px",
-            borderWidth: "10px",
+            borderWidth: "20px",
+            borderImageWidth: "10px",
             objectFit: "contain",
           }}
           onClick={vospen}
