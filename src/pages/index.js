@@ -11,7 +11,7 @@ import SlideShow from "../components/SlideShow"
 import ModalObject from "../components/ModalObject"
 import Video from "../components/video"
 import VisibilitySensor from "react-visibility-sensor"
-
+import Animation from "../components/animation"
 import { Spring } from "react-spring/renderprops"
 import { ToastContainer } from "react-toastify"
 
@@ -48,6 +48,7 @@ export default class Page extends Component {
     return (
       <Layout>
         <ToastContainer />
+        <Animation></Animation>
         <Video videoSrcURL="https://www.youtube.com/embed/k2qist_IxZI"></Video>
         <div
           style={{
