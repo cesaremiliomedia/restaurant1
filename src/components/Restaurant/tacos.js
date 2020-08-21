@@ -132,14 +132,16 @@ export default function Tacos({ item }) {
         }}
       >
         {item.info}
-      </p>
-      <button
-        style={{ maxWidth: "200px" }}
-        className="text-center btn btn-primary btn-block btn-lg"
-        onClick={toa}
-      >
-        add to cart
-      </button>
+      </p>{" "}
+      <div className="mx-auto">
+        <button
+          style={{ maxWidth: "200px" }}
+          className=" btn btn-primary btn-block btn-lg"
+          onClick={toa}
+        >
+          add to cart
+        </button>
+      </div>
     </div>
   )
 }
