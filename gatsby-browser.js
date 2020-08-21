@@ -12,5 +12,5 @@ import "popper.js/dist/popper.min"
 import "bootstrap/dist/js/bootstrap.min.js"
 import "./src/components/styles.css"
 import "react-toastify/scss/main.scss"
-
+import "react-lottie"
 import "./src/components/square.css"
