@@ -48,6 +48,7 @@ export default class Page extends Component {
     return (
       <Layout>
         <ToastContainer />
+        <div></div>
         <Animation></Animation>
         <Video videoSrcURL="https://www.youtube.com/embed/k2qist_IxZI"></Video>
         <div
