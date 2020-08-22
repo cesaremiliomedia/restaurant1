@@ -2,9 +2,9 @@ import React from "react"
 import Animation from "./animation"
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className="video texture ">
+  <div className="video texture d-block ">
     {" "}
-    <div style={{ height: "50px" }}>
+    <div>
       <Animation></Animation>
     </div>
     <iframe
