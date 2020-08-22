@@ -26,7 +26,14 @@ export default class LottieControl extends React.Component {
     }
 
     return (
-      <div style={{ margin: "-200px 0px", position: "relative", zIndex: 1 }}>
+      <div
+        style={{
+          height: "100%",
+          margin: "-200px 0px",
+          position: "relative",
+          zIndex: 1,
+        }}
+      >
         <Lottie
           options={defaultOptions}
           width={"100%"}
