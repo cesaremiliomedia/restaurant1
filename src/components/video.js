@@ -4,7 +4,7 @@ import Animation from "./animation"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   <div className="video texture ">
     {" "}
-    <div>
+    <div style={{ height: "50px" }}>
       <Animation></Animation>
     </div>
     <iframe
