@@ -2,7 +2,7 @@ import React from "react"
 import Animation from "./animation"
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-  <div className="video texture d-block ">
+  <div className="video texture d-block m-auto">
     {" "}
     <div>
       <Animation></Animation>
