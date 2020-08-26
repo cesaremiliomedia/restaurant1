@@ -19,7 +19,8 @@ export default class LottieControl extends React.Component {
       loop: false,
       autoplay: true,
       speed: 1,
-      animationData: animation,
+      animationData:
+        "https://assets4.lottiefiles.com/packages/lf20_ydhm6y.json",
       rendererSettings: {
         preserveAspectRatio: "xMidYMid slice",
       },
