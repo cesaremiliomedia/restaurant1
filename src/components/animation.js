@@ -1,7 +1,7 @@
 import React from "react"
 
 import Lottie from "react-lottie"
-import animation from "../animations/data69.json"
+import animation from "../animations/data699.json"
 
 export default class LottieControl extends React.Component {
   constructor(props) {
@@ -19,7 +19,7 @@ export default class LottieControl extends React.Component {
       loop: false,
       autoplay: true,
       speed: 1,
-      path: "https://assets4.lottiefiles.com/packages/lf20_ydhm6y.json",
+      animationData: animation,
       rendererSettings: {
         preserveAspectRatio: "xMidYMid slice",
       },
@@ -29,7 +29,6 @@ export default class LottieControl extends React.Component {
       <div
         style={{
           height: "100%",
-
           position: "relative",
           zIndex: 1,
         }}
