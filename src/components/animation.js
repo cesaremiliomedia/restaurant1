@@ -1,7 +1,7 @@
 import React from "react"
 
 import Lottie from "react-lottie"
-import animation from "../animations/data699.json"
+import animation from "../animations/dd.json"
 
 export default class LottieControl extends React.Component {
   constructor(props) {
