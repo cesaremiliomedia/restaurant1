@@ -28,9 +28,7 @@ export default class LottieControl extends React.Component {
     return (
       <div style={{ position: "relative", zIndex: 1 }}>
         <Lottie
-          options={setTimeout(() => {
-            defaultOptions
-          }, 2000)}
+          options={defaultOptions}
           width={"100%"}
           isStopped={this.state.isStopped}
           isPaused={this.state.isPaused}
