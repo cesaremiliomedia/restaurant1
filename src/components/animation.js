@@ -15,7 +15,7 @@ export default class LottieControl extends React.Component {
     //   margin: '10px auto',
     // }
     setTimeout(() => {
-      const defaultOptions = {
+      var defaultOptions = {
         loop: false,
         autoplay: true,
         speed: 1,
