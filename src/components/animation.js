@@ -14,16 +14,17 @@ export default class LottieControl extends React.Component {
     //   display: 'block',
     //   margin: '10px auto',
     // }
-
-    const defaultOptions = {
-      loop: false,
-      autoplay: true,
-      speed: 1,
-      animationData: animation,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice",
-      },
-    }
+    setTimeout(() => {
+      const defaultOptions = {
+        loop: false,
+        autoplay: true,
+        speed: 1,
+        animationData: animation,
+        rendererSettings: {
+          preserveAspectRatio: "xMidYMid slice",
+        },
+      }
+    }, 5000)
 
     return (
       <div style={{ position: "relative", zIndex: 1 }}>
