@@ -14,7 +14,7 @@ export default class LottieControl extends React.Component {
     //   display: 'block',
     //   margin: '10px auto',
     // }
-    setTimeout(() => {
+    const dadf = setTimeout(() => {
       var defaultOptions = {
         loop: false,
         autoplay: true,
@@ -29,7 +29,7 @@ export default class LottieControl extends React.Component {
     return (
       <div style={{ position: "relative", zIndex: 1 }}>
         <Lottie
-          options={defaultOptions}
+          options={dadf}
           width={"100%"}
           isStopped={this.state.isStopped}
           isPaused={this.state.isPaused}
