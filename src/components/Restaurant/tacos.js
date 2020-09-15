@@ -14,7 +14,13 @@ export default function Tacos({ item }) {
         className="carousel slide"
         data-ride="carousel"
       >
-        <h1 style={{ textShadow: " 0 0 3px red, 0 0 5px yellow" }}>
+        <h1
+          className="orgcol"
+          style={{
+            fontWeight: "800",
+            textShadow: "0 0 5px yellow, 1px 1px 1px black",
+          }}
+        >
           {item.item}
         </h1>
         <div className="carousel-inner w-100">

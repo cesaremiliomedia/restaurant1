@@ -206,9 +206,11 @@
   display: none;
 }
 h1 {
-  font-family: "Sacramento";
-  text-shadow: 2px 2px 5px black, 0 0 5px #0000ff;
+  font-family: "Leckerli One";
+  text-shadow: 1px 1px 3px black, 1px 4px 5px #84bfae;
   text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .pnkcol {
