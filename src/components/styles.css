@@ -214,6 +214,9 @@ h1 {
 .pnkcol {
   color: #f257a0;
 }
+.pnkshw {
+  text-shadow: 2px 2px 5px #f257a0;
+}
 
 .h1bs {
   font-size: 16px;
@@ -265,4 +268,10 @@ h1 {
   background: white;
   padding: 2rem;
   outline: none;
+}
+.pnkcol {
+  color: #f257a0;
+}
+.orgcol {
+  color: #f2a413;
 }

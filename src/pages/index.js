@@ -127,9 +127,7 @@ export default class Page extends Component {
         <div className=" m-2" style={{ position: "relative", height: "250px" }}>
           <SlideShow />
         </div>
-        <h1 style={{ color: "#F2A413" }} className="text-lowercase">
-          Specials!
-        </h1>
+        <h1 className="pnkcol text-lowercase">Specials!</h1>
         <div
           id="menu"
           style={{

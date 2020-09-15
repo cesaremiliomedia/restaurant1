@@ -21,7 +21,8 @@ module.exports = {
       options: {
         fonts: [
           `Titan One`,
-          `Sacramento`,
+          `Leckerli One`,
+          `Sacramento\:300,400,400i,800`,
           `Indie Flower`,
           `Chango`,
           // you can also specify font weights and styles
