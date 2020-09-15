@@ -79,12 +79,13 @@ export default class Page extends Component {
                     {props => (
                       <div style={props}>
                         <h1
-                          className="pnkcol"
+                          className="pnkcol h5"
                           style={{
-                            fontsize: "20px",
+                            fontsize: "14px",
+                            fontFamily: "sacramento",
                             fontWeight: "700",
                             letterSpacing: "3px",
-                            marginTop: "-20px",
+                            marginTop: "0px",
                           }}
                         >
                           About this site
