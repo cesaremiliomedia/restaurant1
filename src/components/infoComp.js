@@ -75,8 +75,8 @@ export default function ({ imgUrl, info }) {
                             left: "0px",
 
                             lineHeight: "12px",
-                            fontSize: "10px",
-                            fontWeight: "550",
+                            fontSize: "11px",
+                            fontWeight: "700",
                           }}
                           className=" mt-3 text-justify mw-80 rounded"
                         >

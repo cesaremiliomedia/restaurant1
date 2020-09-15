@@ -33,7 +33,7 @@ export default function ({ imgUrl, info }) {
 
                             lineHeight: "12px",
                             fontSize: "10px",
-                            fontWeight: "550",
+                            fontWeight: "700",
                           }}
                           className="  text-justify mw-80 rounded"
                         >
