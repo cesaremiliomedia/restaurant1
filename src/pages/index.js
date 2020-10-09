@@ -145,9 +145,9 @@ export default class Page extends Component {
         <div>
           <Menu></Menu>
         </div>
-        <Tacos item={Menu2}></Tacos>
+        {/* <Tacos item={Menu2}></Tacos>
         <Tacos item={Menu3}></Tacos>
-        <Tacos item={sides}></Tacos>
+        <Tacos item={sides}></Tacos> */}
 
         <FixedMenu />
         <div style={{ color: "white" }} id="accordion">
