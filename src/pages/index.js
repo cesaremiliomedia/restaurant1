@@ -142,7 +142,9 @@ export default class Page extends Component {
           <ModalObject imgUrl={url4} />
           <ModalObject imgUrl={url5} />
         </div>
-
+        <div>
+          <Menu></Menu>
+        </div>
         <Tacos item={Menu2}></Tacos>
         <Tacos item={Menu3}></Tacos>
         <Tacos item={sides}></Tacos>
