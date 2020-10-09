@@ -14,6 +14,7 @@ import VisibilitySensor from "react-visibility-sensor"
 import Animation from "../components/animation"
 import { Spring } from "react-spring/renderprops"
 import { ToastContainer } from "react-toastify"
+import Menu from "../components/Restaurant/menu"
 
 export default class Page extends Component {
   render() {

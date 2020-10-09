@@ -31,12 +31,8 @@ export const sides = {
     price: "$1.00",
   },
 
-  items: [
-    {
-      url: "https://tacotote.com/wp-content/uploads/adobado-chicken.png",
-      name: "adobado chicken",
-    },
-  ],
+  options:
+    "Baked Potato, Refried Beans, Quesadilla, Nachos, Salsa Verde, Salasa Rojo",
 }
 export const Menu2 = {
   item: "Tacos",
