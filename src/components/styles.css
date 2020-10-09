@@ -277,3 +277,27 @@ h1 {
 .orgcol {
   color: #f2a413;
 }
+
+.simple-trans-main {
+  padding-top: 30px;
+  display: flex;
+  height: 550px;
+  max-width: 375px;
+}
+.simple-trans-main > div {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+
+  max-width: 375px;
+  margin-top: 40px;
+  color: white;
+  font-weight: 800;
+}
+.simple-trans-main > nav > ul {
+  float: none;
+  position: absolute;
+  height: 400px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
