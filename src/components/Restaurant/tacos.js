@@ -7,7 +7,7 @@ export default function Tacos({ item }) {
   const hashName = "#" + `${name}`
   const toa = () => toast.success("added to cart")
   return (
-    <div className=" texture card bg-success text-center p-4">
+    <div className=" texture bg-success text-center p-4">
       <div
         style={{ minHeight: "200px" }}
         id={name}
