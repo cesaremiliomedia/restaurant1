@@ -141,7 +141,7 @@ export default function Tacos({ item }) {
       </p>{" "}
       <div className="mx-auto">
         <button
-          style={{ maxWidth: "200px" }}
+          style={{ maxWidth: "200px", marginTop: "30px" }}
           className=" btn mx-auto btn-primary btn-block btn-sm"
           onClick={toa}
         >
