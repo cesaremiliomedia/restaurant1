@@ -33,7 +33,7 @@ export default function Menu() {
   })
   return (
     <div>
-      <div className="texture simple-trans-main  ">
+      <div className="bg-success texture simple-trans-main  ">
         {transitions.map(({ item, props, key }) => {
           const Page = pages[item]
           return <Page key={key} style={props}></Page>
