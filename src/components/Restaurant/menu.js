@@ -38,7 +38,7 @@ export default function Menu() {
           const Page = pages[item]
           return <Page key={key} style={props}></Page>
         })}
-        <nav className="dfa">
+        <nav>
           <ul style={{ whiteSpace: "nowrap" }}>
             <button
               type="button"
