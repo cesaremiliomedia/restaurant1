@@ -65,7 +65,7 @@ export default class Page extends Component {
         <div style={{ minHeight: "200px" }}>
           <VisibilitySensor partialVisibility offset={{ top: 0 }}>
             {({ isVisible }) => (
-              <div>
+              <div style={{ display: "block", minHeight: "220px" }}>
                 {isVisible ? (
                   <Spring
                     config={{ delay: 300 }}
