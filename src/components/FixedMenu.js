@@ -19,6 +19,7 @@ export default function FixedMenu() {
           maxWidth: "375px",
           display: "flex",
           justifyContent: "center",
+          zIndex: "999",
         }}
       >
         <div
