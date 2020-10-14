@@ -39,24 +39,30 @@ export default function Menu() {
           return <Page key={key} style={props}></Page>
         })}
         <nav>
-          <ul style={{ whiteSpace: "nowrap" }}>
+          <ul
+            style={{
+              whiteSpace: "nowrap",
+              fontFamily: "sacramento",
+              fontWeight: "700",
+            }}
+          >
             <button
               type="button"
-              class="btn btn-primary btn-sm flott"
+              class="btn btn-primary btn-lg"
               onClick={() => set(0)}
             >
               Tacos
             </button>
             <button
               type="button"
-              class="btn btn-primary btn-sm flott"
+              class="btn btn-primary btn-lg"
               onClick={() => set(1)}
             >
               Bowls
             </button>
             <button
               type="button"
-              class="btn btn-primary btn-sm flott"
+              class="btn btn-primary btn-lg"
               onClick={() => set(2)}
             >
               Sides
