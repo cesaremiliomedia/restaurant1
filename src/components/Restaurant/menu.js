@@ -50,6 +50,7 @@ export default function Menu() {
               type="button"
               class="btn btn-primary btn-lg"
               onClick={() => set(0)}
+              style={{ textTransform: "none" }}
             >
               Tacos
             </button>
@@ -57,6 +58,7 @@ export default function Menu() {
               type="button"
               class="btn btn-primary btn-lg"
               onClick={() => set(1)}
+              style={{ textTransform: "none" }}
             >
               Bowls
             </button>
@@ -64,6 +66,7 @@ export default function Menu() {
               type="button"
               class="btn btn-primary btn-lg"
               onClick={() => set(2)}
+              style={{ textTransform: "none" }}
             >
               Sides
             </button>
