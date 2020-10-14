@@ -301,3 +301,16 @@ h1 {
   left: 50%;
   transform: translate(-50%, 0%);
 }
+@keyframes hover {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.hovanim {
+  animation: hover 3s ease-in-out -1.5s infinite alternate;
+}

@@ -4,7 +4,9 @@ import Animation from "./animation"
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   <div className="video texture d-block m-auto">
     {" "}
-    <Animation></Animation>
+    <div className="hovanim">
+      <Animation></Animation>
+    </div>
     <iframe
       src={videoSrcURL}
       title={videoTitle}
